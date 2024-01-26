@@ -63,9 +63,9 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.5); /* Colore di sfondo traslucido */
-  backdrop-filter: blur(5px); /* Effetto di sfocatura */
-  z-index: 1; /* Assicura che la sovrapposizione sia sopra il resto del contenuto */
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 1;
 }
 
 .winner-content {
@@ -76,7 +76,7 @@ ul {
   font-size: 24px;
   font-weight: bold;
   color: black;
-  margin-bottom: 20px; /* Aggiungi spazio tra il testo e il pulsante */
+  margin-bottom: 20px;
 }
 
 .winner-overlay button {
