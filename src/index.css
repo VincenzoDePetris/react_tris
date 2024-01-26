@@ -1,7 +1,7 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
-  background-color: aquamarine;
+  background-color: black;
 }
 
 ol,
@@ -20,9 +20,10 @@ ul {
 }
 
 .square {
-  background: #fff;
-  border: 3px solid #999;
+  background: black;
+  border: 3px solid white;
   float: left;
+  color: white;
   font-size: 80px;
   font-weight: bold;
   line-height: 160px;
@@ -45,7 +46,7 @@ ul {
 .game {
   display: flex;
   height: 90vh;
-  flex-direction: row;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
 }
@@ -82,14 +83,21 @@ ul {
 .winner-overlay button {
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #4caf50;
+  background-color: black;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  border-radius: 25px;
 }
 
 .winner-overlay button:hover {
-  background-color: #45a049;
+  background-color: white;
+  color: black;
+}
+
+.status {
+  color: white;
+  font-size: 2rem;
 }
